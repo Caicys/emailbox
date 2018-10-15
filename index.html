@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>易千信箱</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+    window.onresize = function() {
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+    };
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles/simditor.css" />
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="scripts/module.min.js"></script>
+    <script type="text/javascript" src="scripts/hotkeys.min.js"></script>
+    <script type="text/javascript" src="scripts/uploader.min.js"></script>
+    <script type="text/javascript" src="scripts/simditor.min.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script> -->
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body style="font-size: 14px">
+    <header class="head">
+        <img src="img/logo.svg" width="20%">
+    </header>
+    <div class="main">
+        <div class="left">
+            <div class="tip">温馨提示</div>
+            <p class="tips">亲爱的师生：</p>
+            <p class="tips">
+                您好！为了更直接有效地解决师生关心、关注的问题，您可以通过部长信箱写信反映您的意见和建议。我们将按相关工作规定，本着“实事求是、解决问题、及时高效”的原则，认真处理您的来信。
+            </p>
+                <div class="bott">
+                    <img src="img/logo.svg" width="55%" style="color: white">
+                </div>
+        </div>
+        <div class="right">
+            <input type="text" name="title" class="xx" placeholder="请在此输入标题" id="title1">
+            <p style="color:gray;font-size: 0.06rem;margin-top: 5px;margin-bottom: -5px;">*手机邮箱二选一</p>
+            <input type="text" name="phone" class="phon" id="tele" placeholder="请输入手机" >
+            <input type="text" name="email" class="em" id="emm" placeholder="请输入邮箱">
+           
+            <textarea id="editor" class="xx1" autofocus></textarea>
+            <input type="submit" value="提交" class="tijiao" id="tj">
+        </div>    
+        <p class="w" id="tipxx">*您尚未登录，请先回到首页登录再填写意见哦</p>
+    </div>
+    <div class="tip3">
+        <li style="color: rgb(49,149,226);">您好！为使您的来信能得到及时办理和明确回复，请您仔细阅读以下内容：</li>
+        <li>1. 您所提交的信件应遵守国家法律法规、社会公德。</li>
+        <li>2. 请您遵循“一事一信”原则，简明扼要、实事求是地阐述事件及诉求。</li>
+        <li>3. 信箱不重复受理同一内容信件，请勿就答复过的问题重复提交信件。</li>
+        <li>4. 为了便于调查核实和及时反馈办理情况，请使用真实姓名和联系方式，谢谢您的支持。</li>
+    </div>
+    <!-- 
+    
+    <div style="text-align: center;">©易千网络工作室</div> -->
+<!-- <script>
+    var editor = new Simditor({
+    textarea: $('#editor')
+    //optional options
+});
+</script> -->
+<script src="scripts/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+*,
+ ::before,
+ ::after {
+    padding: 0;
+    margin: 0;
+    /*清除移动端默认的点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    /*设置所有东西都以边框开始计算宽度 百分比*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*兼容*/
+}
+a {
+    cursor: pointer;
+}
+*{margin:0;padding:0}
+
+li{
+    list-style:none;
+}
+
+img{vertical-align:top;border:none}
+@charset "UTF-8";
+* {
+    margin: 0 auto;
+    line-height: 1.5;
+}
+::-webkit-scrollbar{
+display:none;
+}
+
+
+.head {
+    width: 100%;
+    height: 0.25rem;
+    letter-spacing: 2px;
+    background-color: rgb(49, 159, 226);
+    display: flex;
+    text-align: center;
+      vertical-align: middle;
+       justify-content: center;
+        align-items: center;
+
+}
+
+.main {
+    position: relative;
+    width: 6rem;
+    height: 2.6rem;
+    margin-top: 0.08rem;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.left {
+    position: absolute;
+    width: 1.2rem;
+    height:85%;
+    top: 5%;
+    margin-left: 0.2rem;
+    border: solid 1px rgb(240, 240, 240);
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.tip {
+    width: 100%;
+    background-color: rgb(49, 159, 226);
+    border-radius: 10px 10px 0 0;
+    font-size: 0.1rem;
+    color: rgb(52, 52, 52);
+    line-height: 2;
+    padding-left: 0.04rem;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.tips{
+    font-size: 0.07rem;
+    font-weight: 400;
+     padding: 0.02rem 0.06rem;
+      color:rgb(140,140,140);
+      padding: 0.03rem 0.03rem;
+}
+.bott,.tijiao{
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+    height: 0.15rem;
+    background-color: rgb(49, 159, 226);
+    border-radius:0 0 10px 10px;
+     display: flex;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+.tijiao{
+    border: 0;
+     border-radius:10px;
+     color: white;
+     font-size: 0.075rem;
+     cursor:pointer;
+     letter-spacing: 0.05rem;
+}
+.right {
+    position: absolute;
+    padding-top: 2px;
+    width: 4.3rem;
+    height: 85%;
+    top: 5%;
+    margin-left: 1.5rem;
+    overflow-y: auto;
+}
+input{
+    outline: none;
+    padding: 5px 5px;
+    color: gray;
+}
+textarea{
+    overflow-y: auto;
+}
+select{
+    position: absolute;
+    outline: none;
+    width: 35%;
+    height: 30px;
+    border: solid 1px #cccccc ;
+    border-radius: 10px;
+    margin-left: 2%;
+    color: gray;
+}
+.phon,.em{
+    margin-top: 10px;
+    display: inline;
+    width: 48%;
+    height: 0.15rem;
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+    font-size: 0.07rem;
+}
+.em{
+    margin-left: 3%;
+}
+.xx{
+    width: 100%;
+    height: 0.15rem;
+    border: solid 1px #cccccc ;
+    border-radius: 10px;
+    font-size: 0.07rem;
+}
+.xx1{
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    padding: 5px 10px;
+    height:1.45rem;
+    border: solid 1px #cccccc ;
+    border-radius: 10px;
+    color: gray;
+    font-size: 16px;
+}
+.tip3{
+    width: 2.75rem;
+    color: gray;
+    margin: 0 auto;
+    font-size: 0.07rem;
+    margin-bottom: 30px;
+}
+.w{
+    display:none;
+    text-align: center;
+    right: 0;
+    left:0;
+    margin:0 auto;
+    color: red;
+    font-size: 0.07rem 
+}
+.w.tt{
+    display:block;
+}
